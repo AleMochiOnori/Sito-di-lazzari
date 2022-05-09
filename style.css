@@ -42,9 +42,8 @@
 
 .main-container {
     display: flex;
-    height: 85vh;
-    background: rgb(119,34,47);
-    background: radial-gradient(circle, rgba(119,34,47,1) 81%, rgba(31,35,47,1) 100%);
+    background: rgb(119, 34, 47);
+    background: radial-gradient(circle, rgba(119, 34, 47, 1) 81%, rgba(31, 35, 47, 1) 100%);
 }
 
 
@@ -70,3 +69,29 @@
     margin-right: 10px;
 }
 
+.programs {
+    text-align: center;
+    margin-top: 70px;
+
+}
+
+
+.svg-programs {
+    margin: auto;
+    width: 230px;
+    margin-top: 66px;
+    border: 2px solid rgb(163, 163, 163);
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 8px 10px 21px 0px #000000;
+    -moz-box-shadow: 8px 10px 21px 0px #000000;
+    -o-box-shadow: 8px 10px 21px 0px #000000;
+    box-shadow: 8px 10px 21px 0px #000000;
+}
+
+.phone {
+    display: flex;
+    gap: 10px;
+    margin-left: -245px;
+}
