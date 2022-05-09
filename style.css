@@ -1,0 +1,68 @@
+* {
+    margin: 0%;
+}
+
+.video-svg {
+    height: 30px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(233, 175, 175);
+    padding: 10px;
+    align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(54, 53, 53);
+    align-content: center;
+}
+
+#ciao {
+    padding: 10px;
+}
+
+.color-change {
+    color: white;
+
+}
+
+.svg-color-switch {
+    fill: rgb(255, 255, 255);
+    position: relative;
+    margin-right: 10px;
+
+}
+
+.main-container {
+    display: flex;
+    height: 85vh
+}
+
+
+
+.video1 {
+    align-items: center;
+    margin-top: 1vh;
+    margin-left: 30vh;
+    height: 800px;
+    width: 500px;
+    position: absolute;
+}
+
+
+.ideri {
+    height: 20px;
+}
+
+.pu {
+    height: 28px;
+    width: 30px;
+    fill: white;
+    margin-right: 10px;
+}
+
