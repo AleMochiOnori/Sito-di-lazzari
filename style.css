@@ -1,3 +1,7 @@
+/* NEEDS TO ADD BOOTSTRAP*/
+
+
+
 * {
     margin: 0%;
     font-family: Georgia, serif;
@@ -75,10 +79,14 @@
 
 }
 
+.video-container {
+    display: flex;
+}
+
 
 .svg-programs {
     margin: auto;
-    width: 230px;
+    width: 228px;
     margin-top: 66px;
     border: 2px solid rgb(163, 163, 163);
     border-radius: 20px;
@@ -88,6 +96,7 @@
     -moz-box-shadow: 8px 10px 21px 0px #000000;
     -o-box-shadow: 8px 10px 21px 0px #000000;
     box-shadow: 8px 10px 21px 0px #000000;
+   justify-content: center;
 }
 
 .phone {
@@ -96,8 +105,112 @@
     margin-left: -245px;
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
     gap: 20px;
 }
+
+.testo-video {
+    margin-left: 110vh;
+    margin-top: 40vh;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+}
+
+.description {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+
+
+/* MEDIA QUERY SE SERVONO IN BOOSTRAP/*
+
+
+/*
+@media (max-width: 1053px) {
+
+    .testo-video {
+        margin-top: 70vh;
+        margin-left: 20vh;
+    }
+
+    .video1 {
+        margin-left: 20vh;
+    }
+
+    .description {
+        margin-left: 20vh;
+    }
+
+   
+    .video-svg {
+        display: none;
+    }
+}
+
+@media (max-width: 806px) {
+    
+    .testo-video {
+        margin-top: 80vh;
+        margin-left: 5vh;
+    }
+
+    .video1 {
+        margin-left: 10vh;
+    }
+
+    .description {
+        margin-left: 5vh;
+    }
+
+}
+
+@media (max-width: 696px) {
+    .video1 {
+        margin-left: 7vh;
+        height: 500px;
+        width: 500px;
+        margin-top: 30vh;
+    }
+    .description {
+        margin-left: 5vh;
+    }
+
+}
+
+@media (max-width: 628px) {
+    .video1 {
+        margin-left: 7vh;
+        height: 400px;
+        width: 400px;
+        margin-top: 30vh;
+    }
+}
+
+@media (max-width: 472px){
+    .video1 {
+        margin-left: 7vh;
+        height: 300px;
+        width: 300px;
+        margin-top: 40vh;
+    }
+
+    #via {
+        display: none;
+    }
+    .footer-container{
+        display: flex;
+        justify-content: center;
+    }
+    .phone{
+        display: none;
+    }
+    .nav-container {
+        justify-content: center;
+    }
+} 
+*/
