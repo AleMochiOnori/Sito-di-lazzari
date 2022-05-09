@@ -13,6 +13,7 @@
     background-color: rgb(150, 150, 150);
     padding: 10px;
     align-items: center;
+    border-style: solid;
 }
 
 .footer-container {
@@ -53,7 +54,7 @@
     margin-top: 1vh;
     margin-left: 30vh;
     height: 800px;
-    width: 500px;
+    width: 600px;
     position: absolute;
 }
 
