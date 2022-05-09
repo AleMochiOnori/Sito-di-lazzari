@@ -9,7 +9,7 @@
 .nav-container {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(233, 175, 175);
+    background-color: rgb(150, 150, 150);
     padding: 10px;
     align-items: center;
 }
@@ -40,7 +40,9 @@
 
 .main-container {
     display: flex;
-    height: 85vh
+    height: 85vh;
+    background: rgb(119,34,47);
+    background: radial-gradient(circle, rgba(119,34,47,1) 81%, rgba(31,35,47,1) 100%);
 }
 
 
